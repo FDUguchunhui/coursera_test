@@ -59,8 +59,8 @@ for (var name_index in names) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (firstLetter === 'j') {
-    byeSpeaker.speak(names[name])
+    byeSpeaker.speak(names[name_index])
   } else {
-    helloSpeaker.speak(names[name])
+    helloSpeaker.speak(names[name_index])
   }
 }
